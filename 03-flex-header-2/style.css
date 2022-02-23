@@ -47,10 +47,22 @@ ul {
   list-style-type: none;
 }
 
-.flex-header {
+.header {
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
-.right-content {
-  flex: 1;
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
